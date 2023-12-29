@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        /*configura tudo dentro as lista qie estiver em a*/    
+        }
+        a:visited {
+            color: darkred;
+        /*muda de cor quando o link foi visitado*/
+        }
+        a:hover {
+                color: black;
+                text-decoration: underline;
+        /*muda de cor ou função ao pássar o mouse em cima*/        
+        }
+        a:active {
+                color: yellow;
+        /*ao clicar em cima muda d ecor*/        
+         }
+         a::before {
+            content: '';
+        /*adicionar antes do link*/    
+         }
+         a::after {
+            content:  '(link)';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkred;
+        /*colocando o nome link apor o nome do link*/    
+         }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io/">Repositorio Github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po">Canal do youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-16-aula-01-modelo-de-caixas-primeiros-passos/">Site do Cursoemvideo</a></li>
+    </ul>
+</body>
+</html>

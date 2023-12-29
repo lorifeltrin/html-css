@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+header {
+    background-image: linear-gradient( #39CD7B, #355342);
+    text-align: center;
+    color:white;
+    padding: 10px;
+    margin: -1%;
+}
+body {
+  background-image: linear-gradient(to right,#84E1AD,#84E1AD);
+}
+
+nav {
+    text-align: left;
+    color: white;
+    }
+  nav > a {
+    font-size: 12pt;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 1px;
+    margin-left: 10px;
+    
+    
+}
+main {
+  background-color: white;
+  width: 600px;
+  margin: auto;
+  
+  padding: 0,5%;
+}
+h2 {
+  margin-top: 7pt;
+  margin-left: 5pt;
+}
+p {
+  margin-left: 5px;
+  text-align: ;
+}
+img {
+  width: 600px;
+  
+}
+.img {
+ width: 560px;
+ margin-left: 0px;
+ margin-bottom: -2px;
+background-color: #355342;
+display: inline-block;
+padding: 20px;
+}
+h3 {
+background-color: #2FA866;
+padding-top: 5px;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+}
+.mais {
+  background-color: #C5EBD6;
+  margin-top: -18px;
+  padding: 10px;
+}
+div {
+  background-color: #c5ebd6;
+  margin: 10px;
+  border-radius: 10px;
+}
+    footer {
+      background-color: #1A5C38;
+      text-align: center;
+      color: white;
+      font-size: 5pt;
+      padding: 1px;
+      
+}
+  .irina {
+    width: 580px;
+    padding: 10px;
+  }
+
+
+
+

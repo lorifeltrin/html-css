@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>´Mídia em Html5</title>
+</head>
+<body>
+    <h1>Imangem dinamica</h1>
+    <p>Tenta abri esse site em vários dispositivos diferentes ou simplimente aumente e diminua o tamanho so seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir Audio em HTML5</p>
+    <!--<audio src="midia/little.mp3" controls autoplay></audio>-->
+    <audio controls preload="metadata">
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+
+
+
+
+    <h2>Adaptando imagem </h2>
+    <p>entre picture colocar este padrao acima para adaptar o tamnho da foto paraq varios tipos de telas, entre elas p para celular, m para tablet, e g para computador</p>
+    <p>A base da foto grande tem de ser sempre a ultma de baixo e cima dela vai diminuindo conforme o tamanho da imagen, ou seja em cima a menor e abaixo vai aumentando </p>
+</body>
+</html>

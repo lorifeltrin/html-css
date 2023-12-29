@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {`
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+iframe {
+    display:block;
+    width:750px;
+    margin: auto;
+}
+p {
+    text-align: center;
+}

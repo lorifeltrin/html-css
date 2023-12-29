@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Tags em html</h1>
+    <p>Em html5, podemos inserir os elementos d alista a seguir.
+        passe o mouse sobre mim para descobri qual é a tag utulizada </p>
+<ul>
+    <li id="myP">paragrafo</li>
+    <li id="myH1">titulos</li>
+</ul>
+
+<script>
+document.getElementById("myP").onmouseover = function() {mouseOver("P")};
+document.getElementById("myH1").onmouseout = function() {mouseOut("H1")};
+document.getElementById("myP").onmouseover = function() {mouseOver("p")};
+document.getElementById("myP").onmouseout = function() {mouseOut()};
+
+function mouseOver(tag) {
+  document.getElementById("my" + tag.toUpperCase()).innerHTML = "Tag: " + tag;
+}
+
+function mouseOut() {
+  document.getElementById("myH1").innerHTML = "titulos";
+  document.getElementById("myP").innerHTML = "paragrafo";
+}
+</script>
+
+
+</body>
