@@ -11,15 +11,34 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
+        
         }
+            caption { /* coloca umm descrição antes da tabela*/
+                font-size: 1.5em;
+                font-weight: bold;
+                padding: 10px;
+                background-color: lightgray;
+            }
         thead, tfoot {
-            background-color: gray;
+            background-color: #383838; 
             color: white;
         }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }    
+        
+
+        tbody > tr:nth-child(2n) { /*coloca uma linha colorida e outra branca*/
+            background-color: lightgray; 
+        }
+
         td.num {
             text-align: right;
         }
@@ -36,10 +55,11 @@
                 TR TD TH
             Tfoot pé -->
             <table>
+                <caption>População das Unidades Federativas</caption>
                 <thead>
                     <tr>
-                        <th>Estado</th>
-                        <th>População</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col" style="width: 50px;">População</th>
                     </tr>
                     
                 </thead>
@@ -156,7 +176,7 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td>Total de Habitantes</td>
+                        <th scope="row">Total de Habitantes</th>
                         <td class="num">210.147.125</td>
                     </tr>
                 </tfoot>    
