@@ -2,29 +2,71 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    /*Escolhe a forma da letra*/
+    margin: 0px; /*faz sumir o espaço entre as lateral e a altura
+    espaço este com outra cor cinza claro */
+    padding: 0px;
 }
 body, html {
     background-color: lightgray;
+    
 }
 
 header {
-    background-color: gray;
+    background-color: gray; /*coloca a coe de fundo dentro do header*/
 }
 header > h1 {
-    padding: 10px;
-    text-align: center;
+    padding: 10px; /* faz deixa um espaço para baixo entre meu site e opção 1*/
+    text-align: center; /*faz meu site ir para o meio da tela*/
+}
+i#hamburger {
+    background-color: rgb(48, 48, 48);
+    color: white; /*cor do icone*/
+    display: block; /*coloca uma linha preta no iconne*/
+    text-align: center; /*faz o icone ir para o meio da tela*/
+    padding: 10px; /*aumenta aaltura da linha*/
+    cursor: pointer; /*coloca uma mão ao pssar o mouse em cima*/
+}
+i#hamburger:hover {
+    background-color: white; /*quando o mouse passa em cima a linha fica branca*/
+    color: black; /*e a letra fica preta*/
 }
 menu {
-    display: block;
+    /*display: block; /*faz o menu ficar exibido menu este das opcoes*/
+    display: none; /*com o nome as opcoes ficam oculta*/
 }
 menu > ul {
-    list-style-type: none;
+    list-style-type: none; /* tira as bolinhas de dentro do menu ul, as bolinhas que fica na frente de opção1*/
+
 }
 
 menu > ul > li > a {
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-    background-color: rgb(87, 87, 87);
+    display: block; /*tambem block para as linhas*/
+    padding: 10px; /*da espaçó entre as opções 1 e opção 2*/
+    text-decoration: none; /*tira o sublinhado de baixo das opções*/
+    text-align: center; /*faz as opções ir para o meio da tela*/
+    background-color: rgb(87, 87, 87); /* coloca cor de fundo dentro do li */
+    color: white; /*cor d aletra dentro do li*/
+    border-top: 2px solid gray; /*coloca uma borda, tipo um linha em cima de cada opcao */
+}
+menu > ul >li > a:hover {
+    background-color: gray; /*quando passa o mouse em cima das opcao as linhas ficam com 
+    outra cor */
+}
+main { /*configura as letra em baixo que estão dentro do main*/
+    width: 90vw; /*diminue  alargura da tela onde tem os <p>*/
+    background-color: white; /*coloca cor de fundo dentro do mais e p*/
+    margin: auto; /*deixa o texto centralizado*/
+    margin-top: 10px; /* deixa um espaço entre opcao e testando com uma cor do fundo*/
+    padding: 10px; /*espaço entre as linhas */
+    border-radius: 10px; /*cria uma borda uma curva no texto entre p*/
+}
+article > h2  {
+    padding-bottom: 20px; /* espaçamento em baixo*/
+}
+article > p {
+    text-align: justify; /*alinhamento do texto dentro do aticle*/
+    margin-bottom: 20px; /*no fim do texo deix aum espaço da mesma cor de fundo*/
+    text-indent: 20px; /*da um espaço entre um <p> e outro*/
 }
 
