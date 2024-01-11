@@ -19,7 +19,7 @@ header > h1 {
     padding: 10px; /* faz deixa um espaço para baixo entre meu site e opção 1*/
     text-align: center; /*faz meu site ir para o meio da tela*/
 }
-i#hamburger {
+i#burger {
     background-color: rgb(48, 48, 48);
     color: white; /*cor do icone*/
     display: block; /*coloca uma linha preta no iconne*/
@@ -27,7 +27,7 @@ i#hamburger {
     padding: 10px; /*aumenta aaltura da linha*/
     cursor: pointer; /*coloca uma mão ao pssar o mouse em cima*/
 }
-i#hamburger:hover {
+i#burger:hover {
     background-color: white; /*quando o mouse passa em cima a linha fica branca*/
     color: black; /*e a letra fica preta*/
 }

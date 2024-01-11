@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    i#burger {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu > ul > li {
+        display: inline-block; /*para mostra as opcoes uma do lado da outra*/
+    }
+    main {
+        width: 768px; /*quando a tela for grande o texto que esta escrito vai ficar no meio da tela, em vez de ocupar toda a tela do site*/
+    }
+}
+/*na primeira conf quando a tela estiver abaixo de 768px vai esconder o menu
+quando estiver acuma de 768px vai mostrar*/
